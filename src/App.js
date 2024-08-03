@@ -25,7 +25,7 @@ if(firstName&&lastName){
     <button type="submit">Submit</button>
   </form>
   
-  {fullName&&`Full Name:${fullName}`}
+{fullName ? <p>Full Name: {fullName}</p> : ""}
     </div>
   );
 }
