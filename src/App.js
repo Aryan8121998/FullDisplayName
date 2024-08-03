@@ -22,7 +22,7 @@ if(firstName&&lastName){
     <label>Last Name:</label>
     <input type="text" name="lastname" value={lastName} onChange={(e)=>setLastName(e.target.value)} required></input>
     <br/>
-    <button>Submit</button>
+    <button type="submit">Submit</button>
   </form>
   
   {fullName&&`Full Name:${fullName}`}
